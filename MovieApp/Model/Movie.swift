@@ -14,6 +14,7 @@ struct MovieTask: Decodable {
 struct Results: Decodable {
     let title: String
     let release_date: String
+    let poster_path: String
 }
 
 enum Link: String {

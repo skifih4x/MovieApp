@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
     var movieTask: MovieTask? {
         didSet {
             self.movieCollection.reloadData()
-        }
+        } 
     }
     
     override func viewDidLoad() {
